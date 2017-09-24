@@ -14,7 +14,7 @@ export class HomePage {
   doAlert() {
     let alert = this.alertCtrl.create({
       title: 'Alertas',
-      message: 'Esta es una alerta basica',
+      message: 'Esta es una alerta basica desde otra PC',
       buttons: ['Ok']
     });
     alert.present()
