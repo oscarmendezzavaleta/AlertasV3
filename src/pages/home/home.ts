@@ -13,8 +13,8 @@ export class HomePage {
 
   doAlert() {
     let alert = this.alertCtrl.create({
-      title: 'New Friend!',
-      message: 'Your friend, Obi wan Kenobi, just approved your friend request!',
+      title: 'Alertas',
+      message: 'Esta es una alerta basica',
       buttons: ['Ok']
     });
     alert.present()
